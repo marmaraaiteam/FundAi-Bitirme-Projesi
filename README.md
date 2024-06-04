@@ -22,11 +22,11 @@ API'yi kullanmak için bir POST isteği yapmanız gerekmektedir. İstek, tahmin 
 ## Web Arayüzü
 
 ### Açıklama
-Web arayüzü, kullanıcıların göz görüntülerini yükleyerek tahmin almasını sağlar. API'yi kullanarak tahminleri gerçekleştirir. Web arayüzü için Streamlit kullanılmıştır ve Hugging Face üzerinden sunulmaktadır.
+Web arayüzü, kullanıcıların göz görüntülerini yükleyerek tahmin almasını sağlar. API'yi kullanarak tahminleri gerçekleştirir. Web arayüzü için Vite ve React kullanılmıştır ve Netlify üzerinden web sitesi yayınlanmıştır.
 
 ### Kullanım
 Web arayüzüne erişmek için aşağıdaki linki kullanabilirsiniz:
-- Web arayüzü linki: [https://huggingface.co/spaces/Bitirme/odirmodel](https://huggingface.co/spaces/Bitirme/odirmodel)
+- Web arayüzü linki: [https://fundai.netlify.app/](https://fundai.netlify.app/)
 
 ## Mobil Uygulama
 
