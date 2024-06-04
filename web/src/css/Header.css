@@ -1,0 +1,91 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f8ff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 12px; 
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav a, .get-started, .learn-more {
+    cursor: pointer;
+    margin-right: 15px; /* Aralıklara dikkat */
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .get-started, .learn-more {
+    padding: 5px 18px;
+    border: none;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .get-started {
+    background-color: #000;
+    color: #fff !important;
+    border-radius: 5px;
+  }
+  
+  .get-started:hover {
+    background-color: #333;
+    outline: none;
+  }
+  
+  .get-started:focus, .get-started:active {
+    outline: none;
+  }
+  
+  .learn-more {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+  
+  .learn-more:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .learn-more:focus, .learn-more:active {
+    outline: none;
+  }
+  

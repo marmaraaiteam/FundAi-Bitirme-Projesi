@@ -1,0 +1,122 @@
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  max-width: 650px;
+  margin: 50px auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.upload-container h2 {
+  margin-bottom: 20px;
+}
+
+.dropzone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+  border: 2px dashed #007bff;
+  border-radius: 10px;
+  background-color: #e6f7ff;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.dropzone:hover {
+  background-color: #d0e7ff;
+}
+
+.dropzone p {
+  color: #007bff;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+.image-preview {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.upload-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.upload-button:disabled {
+  background-color: #cccccc;
+}
+
+.upload-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.prediction-result {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.prediction-result h3 {
+  margin-top: 0;
+}
+
+.prediction-result pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.clear-button {
+  position: absolute;
+  transform: translate(220%, -140%);
+  padding: 10px 18px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 25%;
+  margin: 25px;
+  box-sizing: border-box;
+  transition: background-color 0.3s;
+}
+
+.clear-button:hover {
+  background-color: #000000;
+}
+
+/* Yeni eklemeler */
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-select {
+  margin-bottom: 20px;
+  width: 100%; 
+  max-width: 700px; 
+  text-align: center; 
+}

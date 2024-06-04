@@ -1,0 +1,73 @@
+# Flutter/Dart ile ilgili dosyalar
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Pods/
+*.dart.js
+*.js.map
+*.dart.js.deps
+*.dart
+*.js
+*.info.json
+
+# Android ile ilgili dosyalar
+**/android/**/gradle-wrapper.jar
+**/android/**/gradle-wrapper.properties
+**/android/**/local.properties
+**/android/**/.gradle
+**/android/**/build
+**/android/**/captures
+**/android/**/output.json
+**/android/**/lint/intermediates
+
+# Xcode ile ilgili dosyalar
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner.xcworkspace
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.xcframework
+ios/Flutter/App.framework
+ios/Flutter/Flutter.podspec
+ios/Podfile.lock
+ios/Runner.xcodeproj/project.pbxproj
+
+# Diğer genel dosyalar
+.idea/
+.vscode/
+*.iml
+*.log
+*.tmp
+*.swp
+*.lock
+*.DS_Store
+*.pdb
+*.dll
+*.obj
+*.exe
+*.pyc
+*.pyo
+*.class
+
+# MacOS ile ilgili dosyalar
+.DS_Store
+
+# Windows ile ilgili dosyalar
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux ile ilgili dosyalar
+*~
+
+# FastAPI ile ilgili dosyalar
+__pycache__/
+instance/
+.webassets-cache
+.env
+*.sqlite3
