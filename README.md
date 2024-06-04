@@ -3,10 +3,19 @@
 Funduseye, göz hastalıklarının sınıflandırılması için geliştirilmiş bir projedir. Bu proje, görüntü sınıflandırma modelini kullanarak göz hastalıklarını tahmin etmektedir. Proje dört ana bileşenden oluşmaktadır: Model, API, Web Arayüzü ve Mobil Uygulama.
 
 ## İçindekiler
+- [Model](#model)
+- [Sentetik Veri Üretimi](#sentetik-veri-üretimi)
 - [API](#api)
 - [Web Arayüzü](#web-arayüzü)
 - [Mobil Uygulama](#mobil-uygulama)
 - [Grup Üyeleri](#grup-üyeleri)
+
+## Model
+Proje kapsamında DenseNet121, InceptionV3, Xception ve MobileNetV2 modelleri eğitilmiştir. Verilerin ön işlenmesi, Gaussian Filtre ve CLAHE Filtresi, geleneksel yöntemlerle veri çoğaltılması ve modellerin eğitim-test kodlarına src dizininden erişilebilir.
+
+## Sentetik Veri Üretimi
+Proje kapsamında sentetik veri üretimi için StyleGAN2-ADA modeli kullanılmıştır. 
+StyleGAN2-ADA modeline ait kodlara linkten erişilebilir: [https://github.com/NVlabs/stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch)
 
 ## API
 
