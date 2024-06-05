@@ -1,4 +1,4 @@
-# Funduseye Projesi
+# FundAi Projesi
 
 Funduseye, göz hastalıklarının sınıflandırılması için geliştirilmiş bir projedir. Bu proje, görüntü sınıflandırma modelini kullanarak göz hastalıklarını tahmin etmektedir. Proje dört ana bileşenden oluşmaktadır: Model, API, Web Arayüzü ve Mobil Uygulama.
 
